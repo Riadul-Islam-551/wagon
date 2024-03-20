@@ -195,3 +195,26 @@
 .our_quality .right .details .right2 img {
   width: 260px;
 }
+/* 
+
+
+........shop heading........ */
+.shop_heading{
+width: 100%;
+text-align: center;
+margin: 20px;
+font-family: sans-serif;
+}
+.shop_heading h1{
+  display: block;
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-bottom: 20px;
+   border-bottom: 2px solid rgb(231, 70, 7);
+}
+.shop_heading p{
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: rgb(73, 73, 73);
+  margin-top: 20px;
+}
