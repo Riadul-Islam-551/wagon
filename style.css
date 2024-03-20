@@ -96,3 +96,49 @@
   background-color: rgb(11, 79, 167);
   font-weight: 600;
 }
+/* 
+
+.............head details......... */
+.head .head_details {
+  margin: 300px auto 0px;
+  text-align: center;
+}
+.head .head_details .welcome {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.head .head_details .welcome h3 {
+  font-size: 3.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(10, 128, 88);
+  width: 700px;
+  line-height: 60px;
+  font-weight: 900;
+}
+.head .head_details .button{
+  margin: 60px 0px 0px 0px;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+.head .head_details .button button1{
+  margin: 6px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(22, 95, 192);
+  cursor: pointer;
+}
+.head .head_details .button button2{
+  margin: 6px;
+  padding: 7px 15px;
+  border-radius: 20px;
+  border: 2px solid rgb(216, 216, 216);
+  background-color: transparent;
+  cursor: pointer;
+}
+.head .head_details .button button2:hover{
+  color: black;
+  background-color: rgb(216, 216, 216);
+}
