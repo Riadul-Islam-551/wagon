@@ -404,7 +404,7 @@
 
 ...........CONTACT PART........ */
 .contact {
-  margin: 0 auto;
+  margin: 20px auto;
   width: 1100px;
   display: flex;
   font-family: sans-serif;
@@ -415,6 +415,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px 2px rgb(199, 199, 199);
 }
 .contact .left h4 {
   margin: 0 auto;
@@ -466,7 +468,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 20px;
+  padding: 50px;
 }
 .contact .right h4 {
   margin: 0 auto;
