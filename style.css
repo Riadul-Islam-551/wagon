@@ -374,3 +374,29 @@
   color: black;
   background-color: #fdd250;
 }
+/* 
+
+......review....... */
+.review{
+  margin: 20px auto;
+  width: 1400px;
+  height: 1200px;
+  background-image: url(./images/review.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+  position: relative;
+}
+.review .rating{
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
