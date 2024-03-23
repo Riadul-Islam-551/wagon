@@ -377,7 +377,7 @@
 /* 
 
 ......review....... */
-.review{
+.review {
   margin: 20px auto;
   width: 1400px;
   height: 1200px;
@@ -387,7 +387,7 @@
   border-radius: 3px;
   position: relative;
 }
-.review .rating{
+.review .rating {
   height: 300px;
   width: 400px;
   background-color: white;
@@ -399,4 +399,95 @@
   position: absolute;
   top: 30px;
   left: 30px;
+}
+/* 
+
+...........CONTACT PART........ */
+.contact {
+  margin: 0 auto;
+  width: 1100px;
+  display: flex;
+  font-family: sans-serif;
+}
+.contact .left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .left h4 {
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin: 10px;
+  padding: 10px;
+}
+.contact .left form {
+  width: 90%;
+}
+.contact .left form .input {
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+  padding: 10px;
+  font-size: 14px;
+  border: 0.5px solid rgb(151, 150, 150);
+  border-radius: 5px;
+}
+.contact .left form .input:focus {
+  box-shadow: 0px 0px 2px 2px rgb(0, 82, 189);
+}
+.contact .left button {
+  font-size: 1.1rem;
+  padding: 10px 13px;
+  margin: 10px 2px;
+  border-radius: 6px;
+  font-weight: lighter;
+  border: none;
+}
+.contact .left .btn_1 {
+  background-color: #f5f5f5;
+  color: black;
+}
+.contact .left .btn_1:hover{
+  background-color: #d1d1d1;
+}
+.contact .left .btn_2 {
+  background-color: rgb(10, 112, 247);
+  color: white;
+}
+.contact .left .btn_2:hover{
+  background-color: rgb(0, 81, 187);
+
+}
+.contact .right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+.contact .right h4 {
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin: 10px 0px;
+}
+.contact .right p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgb(39, 39, 39);
+}
+.contact .right button{
+  font-size: .8rem;
+  padding: 10px 13px ;
+  margin: 15px 0px;
+  border-radius: 30px;
+  color: rgb(39, 39, 39);
+  border:.5px solid rgb(39, 39, 39) ;
+  background-color: transparent;
+}
+.contact .right button:hover{
+  background-color: rgb(209, 209, 209);
 }
