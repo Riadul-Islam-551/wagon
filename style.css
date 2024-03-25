@@ -571,8 +571,8 @@ footer .copyright {
   color: #ffffff;
 }
 /* 
-............start media quari......... */
-@media screen and (max-width: 600px) {
+............start media quari for 600px......... */
+@media screen and (max-width: 500px) {
   .head nav {
     height: 75px;
     width: 100%;
@@ -634,7 +634,7 @@ footer .copyright {
   }
   .about_us .right p {
     margin: 30px 25px 0px 20px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     word-spacing: 5px;
   }
   .about_us .right .details {
@@ -646,8 +646,8 @@ footer .copyright {
     height: 100%;
   }
   .about_us .right .details .left2 h6 {
-    font-size: 1rem;
-    line-height: 25px;
+    font-size: .9rem;
+    line-height: 20px;
     font-weight: lighter;
     color: rgb(63, 63, 63);
     margin-right: 20px;
@@ -696,7 +696,7 @@ shop heading........ */
 
 .......shop............. */
   .shop {
-    width: 465px;
+    width: 340px;
     margin: 0 auto;
   }
   /* 
@@ -730,8 +730,8 @@ shop heading........ */
     align-items: center;
   }
   .shop .one_apt .apt_price h4 {
-    margin-right: 250px;
-    font-size: 1.4rem;
+    margin-right: 120px;
+    font-size: 1.2rem;
   }
   .shop .one_apt .apt_price button {
     font-size: 0.8rem;
@@ -765,10 +765,130 @@ shop heading........ */
     clear: both;
     display: table;
   }
+  /* 
+
+......review....... */
+.review {
+  margin: 20px auto;
+  width: 380px;
+  height: 500px;
+  background-image: url(./images/review.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+  position: relative;
+}
+.review .rating {
+  height: 170px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
+/* 
+
+...........CONTACT PART........ */
+.contact {
+  margin: 20px auto;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.contact .left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px 2px rgb(199, 199, 199);
+}
+.contact .left h4 {
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin: 10px;
+  padding: 10px;
+}
+.contact .left form {
+  width: 90%;
+}
+.contact .left form .input {
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+  padding: 10px;
+  font-size: 14px;
+  border: 0.5px solid rgb(151, 150, 150);
+  border-radius: 5px;
+}
+.contact .left form .input:focus {
+  box-shadow: 0px 0px 2px 2px rgb(0, 82, 189);
+}
+.contact .left button {
+  font-size: 1.1rem;
+  padding: 10px 13px;
+  margin: 10px 2px;
+  border-radius: 6px;
+  font-weight: lighter;
+  border: none;
+}
+.contact .left .btn_1 {
+  background-color: #f5f5f5;
+  color: black;
+}
+.contact .left .btn_1:hover {
+  background-color: #d1d1d1;
+}
+.contact .left .btn_2 {
+  background-color: rgb(10, 112, 247);
+  color: white;
+}
+.contact .left .btn_2:hover {
+  background-color: rgb(0, 81, 187);
+}
+.contact .right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 15px 10px;
+}
+.contact .right h4 {
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin: 10px 0px;
+}
+.contact .right p {
+  font-size: .9rem;
+  line-height: 1.2rem;
+  color: rgb(39, 39, 39);
+  text-align: justify;
+}
+.contact .right button {
+  font-size: 0.7rem;
+  padding: 10px 11px;
+  margin: 15px 0px;
+  border-radius: 30px;
+  color: rgb(39, 39, 39);
+  border: 0.5px solid rgb(39, 39, 39);
+  background-color: transparent;
+}
+.contact .right button:hover {
+  background-color: rgb(209, 209, 209);
+}
 }
 /* 
 ..........responsive for 768px .......... */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and ( min-width:500px) {
   /* 
 
 ......review....... */
