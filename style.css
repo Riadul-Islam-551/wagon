@@ -748,7 +748,7 @@ shop heading........ */
 
   .shop .one_apt .img6 button {
     color: #ffc107;
-    font-size: .8rem;
+    font-size: 0.8rem;
     background: transparent;
     padding: 10px 15px;
     border-radius: 50px;
@@ -764,5 +764,35 @@ shop heading........ */
     content: "";
     clear: both;
     display: table;
+  }
+}
+/* 
+..........responsive for 768px .......... */
+@media screen and (max-width: 768px) {
+  /* 
+
+......review....... */
+  .review {
+    margin: 20px auto;
+    width: 600px;
+    height: 700px;
+    background-image: url(./images/review.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    position: relative;
+  }
+  .review .rating {
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 150px;
+    left: 130px;
   }
 }
