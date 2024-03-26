@@ -2224,86 +2224,231 @@ shop heading........ */
   /* 
 
 ........footer........ */
-footer {
-  width: 100%;
-  height: 320px;
-  margin-top: 50px;
-  background-color: rgb(26, 31, 26);
-  padding: 10px 10px;
-}
-footer::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-footer .f_details {
-  width: 100%;
-  height: 190px;
-}
-footer .f_h {
-  margin: 16px 0px 0px 0px;
-  padding: 5px 5px 5px 0px;
-  font-size: 1.2rem;
-  color: white;
-}
-/* footer .f_h::after{
+  footer {
+    width: 100%;
+    height: 320px;
+    margin-top: 50px;
+    background-color: rgb(26, 31, 26);
+    padding: 10px 10px;
+  }
+  footer::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  footer .f_details {
+    width: 100%;
+    height: 190px;
+  }
+  footer .f_h {
+    margin: 16px 0px 0px 0px;
+    padding: 5px 5px 5px 0px;
+    font-size: 1.2rem;
+    color: white;
+  }
+  /* footer .f_h::after{
   border: 2px solid rgb(13, 230, 13);
 } */
-footer .f_c .underline {
-  width: 80px;
-  height: 2px;
-  background-color: rgb(13, 230, 13);
-  margin-bottom: 20px;
-}
-footer .f_c .f_p {
-  line-height: 24px;
-  padding-right: 40px;
-  color: #cfcfcf;
-  text-align: justify;
-  font-size: 15px;
-}
-footer .f_c .f_links li {
-  list-style-type: none;
-}
-footer .f_c .f_links li a {
-  text-decoration: none;
-  color: #cfcfcf;
-  line-height: 24px;
-  font-size: 15px;
-}
-footer .f_c .f_links li a:hover {
-  text-decoration: underline;
-  color: #f08408;
-}
-footer .f_details .news .news_mail {
-  width: 80%;
-  height: 37px;
-  border-radius: 10px;
-  padding: 10px;
-  border: none;
-  margin: 10px 30px 10px 0px;
-}
+  footer .f_c .underline {
+    width: 80px;
+    height: 2px;
+    background-color: rgb(13, 230, 13);
+    margin-bottom: 20px;
+  }
+  footer .f_c .f_p {
+    line-height: 24px;
+    padding-right: 40px;
+    color: #cfcfcf;
+    text-align: justify;
+    font-size: 15px;
+  }
+  footer .f_c .f_links li {
+    list-style-type: none;
+  }
+  footer .f_c .f_links li a {
+    text-decoration: none;
+    color: #cfcfcf;
+    line-height: 24px;
+    font-size: 15px;
+  }
+  footer .f_c .f_links li a:hover {
+    text-decoration: underline;
+    color: #f08408;
+  }
+  footer .f_details .news .news_mail {
+    width: 80%;
+    height: 37px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin: 10px 30px 10px 0px;
+  }
 
-footer .f_details .news .n_btn {
-  /* display: inline-block; */
-  font-size: 1rem;
-  color: white;
-  background-color: rgb(12, 117, 12);
-  padding: 10px 15px;
-  border-radius: 10px;
-  border: none;
-}
-footer .f_details .news .n_btn:hover {
-  background-color: rgb(14, 83, 14);
-}
-/* 
+  footer .f_details .news .n_btn {
+    /* display: inline-block; */
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(12, 117, 12);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+  }
+  footer .f_details .news .n_btn:hover {
+    background-color: rgb(14, 83, 14);
+  }
+  /* 
 ........copyright....... */
-footer .copyright {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  font-size: 0.8rem;
-  color: #ffffff;
+  footer .copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #ffffff;
+  }
 }
+@media screen and (min-width: 1100px) and (max-width: 1250px) {
+  /* 
+.....head......  */
+  .head {
+    width: 100%;
+    height: 950px;
+    background-image: url(./images/head.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* 
+
+.............nav........... */
+  .head nav {
+    height: 75px;
+    width: 100%;
+    display: flex;
+  }
+  /* 
+
+.........nav logo........ */
+  .head nav .navlogo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .head nav .navlogo p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: rgb(3, 121, 81);
+    border-radius: 10px;
+  }
+  /* 
+
+......nav links......*/
+  .head nav .navlinks {
+    width: 58%;
+  }
+  .head nav .navlinks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .head nav .navlinks ul li {
+    font-size: 1rem;
+    list-style-type: none;
+    margin-top: 30px;
+  }
+  .head nav .navlinks ul li a {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    margin: 15px;
+    padding: 9px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  .head nav .navlinks ul li a:hover {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    border-radius: 7px;
+  }
+  /* 
+
+.........nav button........ */
+  .head nav .navbutton {
+    width: 22%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .head nav .navbutton button {
+    margin-right: 2px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(77, 77, 77);
+    background-color: rgb(248, 248, 248);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .head nav .navbutton button i {
+    margin-right: 5px;
+  }
+  .head nav .navbutton button:hover {
+    color: white;
+    background-color: rgb(11, 79, 167);
+    font-weight: 600;
+  }
+  /* 
+
+.............head details......... */
+  .head .head_details {
+    margin: 300px auto 0px;
+    text-align: center;
+  }
+  .head .head_details .welcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .head .head_details .welcome h3 {
+    font-size: 3.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 128, 88);
+    width: 700px;
+    line-height: 60px;
+    font-weight: 900;
+  }
+  .head .head_details .button {
+    margin: 60px 0px 0px 0px;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  .head .head_details .button button1 {
+    margin: 6px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(10, 112, 247);
+    cursor: pointer;
+  }
+  .head .head_details .button button1:hover {
+    background-color: rgb(15, 83, 173);
+  }
+  .head .head_details .button button2 {
+    margin: 6px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(216, 216, 216);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .head .head_details .button button2:hover {
+    color: black;
+    background-color: rgb(216, 216, 216);
+  }
 }
