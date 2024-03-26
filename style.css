@@ -1706,4 +1706,88 @@ shop heading........ */
   .contact .right button:hover {
     background-color: rgb(209, 209, 209);
   }
+  /* 
+ ................ footer............. */
+  footer {
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    background-color: rgb(26, 31, 26);
+    padding: 30px;
+  }
+
+  footer .f_details {
+    width: 100%;
+    height: 200px;
+  }
+  footer .f_details .f_c{
+    height: 180px;
+  }
+  footer .f_h {
+    margin: 12px 0px 0px 0px;
+    padding: 5px 5px 5px 0px;
+    font-size: 1rem;
+    color: white;
+  }
+  /* footer .f_h::after{
+  border: 2px solid rgb(13, 230, 13);
+} */
+  footer .f_c .underline {
+    width: 80px;
+    height: 2px;
+    background-color: rgb(13, 230, 13);
+    margin-bottom: 10px;
+  }
+  footer .f_c .f_p {
+    width: 300px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 17px;
+    padding-right: 0px;
+    color: #cfcfcf;
+  }
+  footer .f_c .f_links li {
+    list-style-type: none;
+  }
+  footer .f_c .f_links li a {
+    text-decoration: none;
+    color: #cfcfcf;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  footer .f_c .f_links li a:hover {
+    text-decoration: underline;
+    color: #f08408;
+  }
+  footer .f_details .news .news_mail {
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin: 10px 30px 10px 0px;
+  }
+
+  footer .f_details .news .n_btn {
+    /* display: inline-block; */
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(12, 117, 12);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+  }
+  footer .f_details .news .n_btn:hover {
+    background-color: rgb(14, 83, 14);
+  }
+  /* 
+........copyright....... */
+  footer .copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #ffffff;
+  }
 }
