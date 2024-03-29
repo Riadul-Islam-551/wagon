@@ -2452,3 +2452,90 @@ shop heading........ */
     background-color: rgb(216, 216, 216);
   }
 }
+@media screen and (min-width: 1250px) and (max-width: 1400px) {
+  /* 
+
+.............nav........... */
+  .head nav {
+    height: 75px;
+    width: 100%;
+    display: flex;
+  }
+  /* 
+
+.........nav logo........ */
+  .head nav .navlogo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .head nav .navlogo p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: rgb(3, 121, 81);
+    border-radius: 10px;
+  }
+  /* 
+
+......nav links......*/
+  .head nav .navlinks {
+    width: 55%;
+  }
+  .head nav .navlinks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .head nav .navlinks ul li {
+    font-size: .9rem;
+    list-style-type: none;
+    margin-top: 30px;
+  }
+  .head nav .navlinks ul li a {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    margin: 5px;
+    padding:9px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  .head nav .navlinks ul li a:hover {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    border-radius: 7px;
+  }
+  /* 
+
+.........nav button........ */
+  .head nav .navbutton {
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .head nav .navbutton button {
+    margin-right: 5px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(77, 77, 77);
+    background-color: rgb(248, 248, 248);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .head nav .navbutton button i {
+    margin-right: 5px;
+  }
+  .head nav .navbutton button:hover {
+    color: white;
+    background-color: rgb(11, 79, 167);
+    font-weight: 600;
+  }
+  
+}
