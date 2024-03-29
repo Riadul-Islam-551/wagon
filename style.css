@@ -2081,6 +2081,7 @@ shop heading........ */
     background-image: url(./images/shop/Apartment-5.jpg);
   }
   /* 
+  
 .....search for more...... */
   .shop .one_apt .img6 {
     height: 480px;
@@ -2451,6 +2452,384 @@ shop heading........ */
     color: black;
     background-color: rgb(216, 216, 216);
   }
+   /* 
+
+
+......about_us.... */
+.about_us {
+  margin: 22px 10px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.about_us .left {
+  width: 350px;
+  height: 100%;
+  background-image: url(./images/home-about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+.about_us .right {
+  width: 60%;
+  height: 100%;
+}
+.about_us .right p {
+  margin: 30px 25px 0px 20px;
+  font-size: 1.2rem;
+  word-spacing: 5px;
+  font-weight: 600;
+  color: #535353;
+}
+.about_us .right .details {
+  display: flex;
+  margin: 10px 0px 0px 20px;
+}
+.about_us .right .details .left2 {
+  width: 60%;
+  height: 100%;
+}
+.about_us .right .details .left2 h6 {
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: lighter;
+  color: rgb(63, 63, 63);
+  margin-right: 10px;
+  text-align: justify;
+}
+.about_us .right .details .left2 a {
+  display: block;
+  margin: 20px 0 0 10px;
+}
+.about_us .right .details .right2 {
+  width: 40%;
+  height: 420px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.about_us .right .details .right2 img {
+  width: 230px;
+  display: block;
+}
+/* 
+
+.......shop............. */
+.shop {
+  width: 1050px;
+  margin: 0 auto;
+}
+/* 
+
+.......one apt.......... */
+.shop .one_apt {
+  height: 480px;
+  padding: 7px 10px;
+  font-family: sans-serif;
+}
+.shop .one_apt .apt_img {
+  width: 100%;
+  height: 300px;
+  background-image: url(./images/shop/Apartment-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+.shop .one_apt .apt_details {
+  width: 100%;
+  height: 92px;
+  padding: 5px;
+  border-bottom: 2px solid orange;
+}
+.shop .one_apt .apt_details h6 {
+  margin: 10px 0px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.shop .one_apt .apt_details p {
+  color: rgb(44, 44, 44);
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+.shop .one_apt .apt_price {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop .one_apt .apt_price h4 {
+  margin-right: 150px;
+  font-size: 1.4rem;
+}
+.shop .one_apt .apt_price button {
+  font-size: 0.8rem;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffc107;
+}
+.shop .one_apt .apt_price button:hover {
+  background-color: #fdd250;
+}
+/* 
+.....shop 2...... */
+.shop .one_apt .img2 {
+  background-image: url(./images/shop/Apartment-2.jpg);
+}
+/* 
+.....shop 3...... */
+.shop .one_apt .img3 {
+  background-image: url(./images/shop/Apartment-3.jpg);
+}
+/* 
+.....shop 4...... */
+.shop .one_apt .img3 {
+  background-image: url(./images/shop/Apartment-4.jpg);
+}
+/* 
+.....shop 5...... */
+.shop .one_apt .img5 {
+  background-image: url(./images/shop/Apartment-5.jpg);
+}
+/* 
+  
+.....search for more...... */
+.shop .one_apt .img6 {
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/shop/search_for_more_apartments.jpg);
+}
+.shop .one_apt .img6 button {
+  color: #ffc107;
+  font-size: 1.2rem;
+  background: transparent;
+  padding: 15px 20px;
+  border-radius: 50px;
+  border: 1px solid #ffc107;
+}
+.shop .one_apt .img6 button:hover {
+  color: black;
+  background-color: #fdd250;
+}
+ /* 
+
+......review....... */
+.review {
+  margin: 20px auto;
+  width: 1090px;
+  height: 700px;
+  background-image: url(./images/review.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+  position: relative;
+}
+.review .rating {
+  height: 200px;
+  width: 420px;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+ /* 
+
+...........CONTACT PART........ */
+.contact {
+  margin: 20px auto;
+  width: 890px;
+  display: flex;
+  font-family: sans-serif;
+}
+.contact .left {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px 2px rgb(199, 199, 199);
+}
+.contact .left h4 {
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin: 10px;
+  padding: 10px;
+}
+.contact .left form {
+  width: 90%;
+}
+.contact .left form .input {
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+  padding: 10px;
+  font-size: 14px;
+  border: 0.5px solid rgb(151, 150, 150);
+  border-radius: 5px;
+}
+.contact .left form .input:focus {
+  box-shadow: 0px 0px 2px 2px rgb(0, 82, 189);
+}
+.contact .left button {
+  font-size: 1.1rem;
+  padding: 10px 13px;
+  margin: 10px 2px;
+  border-radius: 6px;
+  font-weight: lighter;
+  border: none;
+}
+.contact .left .btn_1 {
+  background-color: #f5f5f5;
+  color: black;
+}
+.contact .left .btn_1:hover {
+  background-color: #d1d1d1;
+}
+.contact .left .btn_2 {
+  background-color: rgb(10, 112, 247);
+  color: white;
+}
+.contact .left .btn_2:hover {
+  background-color: rgb(0, 81, 187);
+}
+.contact .right {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 15px 0px 15px 20px;
+  margin: 0 auto;
+}
+.contact .right h4 {
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin: 10px 0px;
+}
+.contact .right p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: rgb(39, 39, 39);
+  text-align: justify;
+}
+.contact .right button {
+  font-size: 0.8rem;
+  padding: 10px 11px;
+  margin: 15px 0px 0px 15px;
+  border-radius: 30px;
+  color: rgb(39, 39, 39);
+  border: 0.5px solid rgb(39, 39, 39);
+  background-color: transparent;
+}
+.contact .right button:hover {
+  background-color: rgb(209, 209, 209);
+}
+ /* 
+
+........footer........ */
+footer {
+  width: 100%;
+  height: 320px;
+  margin-top: 60px;
+  background-color: rgb(26, 31, 26);
+  padding: 10px 50px;
+}
+footer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer .f_details {
+  width: 100%;
+  height: 190px;
+}
+footer .f_h {
+  margin: 16px 0px 0px 0px;
+  padding: 5px 5px 5px 0px;
+  font-size: 1.1rem;
+  color: white;
+}
+footer .f_h_2{
+  margin-left: 20px;
+}
+/* footer .f_h::after{
+border: 2px solid rgb(13, 230, 13);
+} */
+footer .f_c .underline {
+  width: 70px;
+  height: 2px;
+  background-color: rgb(13, 230, 13);
+  margin-bottom: 20px;
+}
+footer .f_c .f_u_2{
+  margin-left: 20px;
+}
+footer .f_c .f_p {
+  line-height: 24px;
+  padding-right: 40px;
+  color: #cfcfcf;
+  text-align: justify;
+  font-size: 13px;
+}
+footer .f_c .f_links li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+footer .f_c .f_links li a {
+  text-decoration: none;
+  color: #cfcfcf;
+  line-height: 24px;
+  font-size: 13px;
+}
+footer .f_c .f_links li a:hover {
+  text-decoration: underline;
+  color: #f08408;
+}
+footer .f_details .news .news_mail {
+  width: 80%;
+  height: 37px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin: 10px 30px 10px 0px;
+}
+
+footer .f_details .news .n_btn {
+  /* display: inline-block; */
+  font-size: .9rem;
+  color: white;
+  background-color: rgb(12, 117, 12);
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+}
+footer .f_details .news .n_btn:hover {
+  background-color: rgb(14, 83, 14);
+}
+/* 
+........copyright....... */
+footer .copyright {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
 }
 @media screen and (min-width: 1250px) and (max-width: 1400px) {
   /* 
