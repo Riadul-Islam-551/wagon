@@ -97,6 +97,12 @@
   background-color: rgb(11, 79, 167);
   font-weight: 600;
 }
+#menubtn {
+  display: none;
+}
+.nrlinks {
+  display: none;
+}
 /* 
 
 .............head details......... */
@@ -2984,129 +2990,129 @@ border: 2px solid rgb(13, 230, 13);
   /* 
 
 .......shop............. */
-.shop {
-  width: 1240px;
-  margin: 0 auto;
-}
-/* 
+  .shop {
+    width: 1240px;
+    margin: 0 auto;
+  }
+  /* 
 
 .......one apt.......... */
-.shop .one_apt {
-  height: 480px;
-  padding: 7px 10px;
-  font-family: sans-serif;
-}
-.shop .one_apt .apt_img {
-  width: 100%;
-  height: 300px;
-  background-image: url(./images/shop/Apartment-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 7px;
-}
-.shop .one_apt .apt_details {
-  width: 100%;
-  height: 92px;
-  padding: 5px;
-  border-bottom: 2px solid orange;
-}
-.shop .one_apt .apt_details h6 {
-  margin: 10px 0px;
-  font-size: 1.2rem;
-  font-weight: lighter;
-}
-.shop .one_apt .apt_details p {
-  color: rgb(44, 44, 44);
-  letter-spacing: 0px;
-  font-size: 0.9rem;
-}
-.shop .one_apt .apt_price {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.shop .one_apt .apt_price h4 {
-  margin-right: 190px;
-  font-size: 1.4rem;
-}
-.shop .one_apt .apt_price button {
-  font-size: 0.9rem;
-  padding: 10px 10px;
-  border-radius: 5px;
-  border: none;
-  background-color: #ffc107;
-}
-.shop .one_apt .apt_price button:hover {
-  background-color: #fdd250;
-}
-/* 
+  .shop .one_apt {
+    height: 480px;
+    padding: 7px 10px;
+    font-family: sans-serif;
+  }
+  .shop .one_apt .apt_img {
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/shop/Apartment-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+  }
+  .shop .one_apt .apt_details {
+    width: 100%;
+    height: 92px;
+    padding: 5px;
+    border-bottom: 2px solid orange;
+  }
+  .shop .one_apt .apt_details h6 {
+    margin: 10px 0px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+  .shop .one_apt .apt_details p {
+    color: rgb(44, 44, 44);
+    letter-spacing: 0px;
+    font-size: 0.9rem;
+  }
+  .shop .one_apt .apt_price {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shop .one_apt .apt_price h4 {
+    margin-right: 190px;
+    font-size: 1.4rem;
+  }
+  .shop .one_apt .apt_price button {
+    font-size: 0.9rem;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffc107;
+  }
+  .shop .one_apt .apt_price button:hover {
+    background-color: #fdd250;
+  }
+  /* 
 .....shop 2...... */
-.shop .one_apt .img2 {
-  background-image: url(./images/shop/Apartment-2.jpg);
-}
-/* 
+  .shop .one_apt .img2 {
+    background-image: url(./images/shop/Apartment-2.jpg);
+  }
+  /* 
 .....shop 3...... */
-.shop .one_apt .img3 {
-  background-image: url(./images/shop/Apartment-3.jpg);
-}
-/* 
+  .shop .one_apt .img3 {
+    background-image: url(./images/shop/Apartment-3.jpg);
+  }
+  /* 
 .....shop 4...... */
-.shop .one_apt .img3 {
-  background-image: url(./images/shop/Apartment-4.jpg);
-}
-/* 
+  .shop .one_apt .img3 {
+    background-image: url(./images/shop/Apartment-4.jpg);
+  }
+  /* 
 .....shop 5...... */
-.shop .one_apt .img5 {
-  background-image: url(./images/shop/Apartment-5.jpg);
-}
-/* 
+  .shop .one_apt .img5 {
+    background-image: url(./images/shop/Apartment-5.jpg);
+  }
+  /* 
 
 .....search for more...... */
-.shop .one_apt .img6 {
-  height: 480px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(./images/shop/search_for_more_apartments.jpg);
-}
-.shop .one_apt .img6 button {
-  color: #ffc107;
-  font-size: 1.2rem;
-  background: transparent;
-  padding: 15px 20px;
-  border-radius: 50px;
-  border: 1px solid #ffc107;
-}
-.shop .one_apt .img6 button:hover {
-  color: black;
-  background-color: #fdd250;
-}/* 
+  .shop .one_apt .img6 {
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/shop/search_for_more_apartments.jpg);
+  }
+  .shop .one_apt .img6 button {
+    color: #ffc107;
+    font-size: 1.2rem;
+    background: transparent;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid #ffc107;
+  }
+  .shop .one_apt .img6 button:hover {
+    color: black;
+    background-color: #fdd250;
+  } /* 
 
 ......review....... */
-.review {
-  margin: 20px auto;
-  width: 1240px;
-  height: 700px;
-  background-image: url(./images/review.jpg.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 3px;
-  position: relative;
-}
-.review .rating {
-  height: 200px;
-  width: 420px;
-  background-color: white;
-  color: black;
-  border-radius: 4px;
-  padding: 30px;
-  font-family: sans-serif;
-  font-size: 1.4rem;
-  position: absolute;
-  top: 60px;
-  left: 60px;
-} /* 
+  .review {
+    margin: 20px auto;
+    width: 1240px;
+    height: 700px;
+    background-image: url(./images/review.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    position: relative;
+  }
+  .review .rating {
+    height: 200px;
+    width: 420px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+  } /* 
 
 ........footer........ */
   footer {
@@ -3197,5 +3203,113 @@ border: 2px solid rgb(13, 230, 13);
     margin-top: 50px;
     font-size: 0.8rem;
     color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  /* 
+
+.............nav........... */
+  .head nav {
+    height: 60px;
+    width: 100%;
+    /* display: flex; */
+  }
+  /* 
+
+.........nav logo........ */
+  .head nav .navlogo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .head nav .navlogo p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: rgb(3, 121, 81);
+    border-radius: 10px;
+  }
+  /* 
+
+......nav links......*/
+  .head nav .navlinks {
+    display: none;
+  }
+
+  /* 
+
+.........nav button........ */
+  .head nav .navbutton {
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .head nav .navbutton button {
+    margin-right: 15px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(77, 77, 77);
+    background-color: rgb(248, 248, 248);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .head nav .navbutton button i {
+    margin-right: 5px;
+  }
+  .head nav .navbutton button:hover {
+    color: white;
+    background-color: rgb(11, 79, 167);
+    font-weight: 600;
+  }
+  .head nav .menubtn {
+    display: block;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 60px;
+    padding-right: 5px;
+    cursor: pointer;
+  }
+  /* ..........menu........... */
+  .head .nrlinks {
+    display: block;
+    float: right;
+    background-color: rgb(3, 121, 81);
+    width: 350px;
+    border-radius: 10px;
+    display: none;
+  }
+  .head .nrlinks ul {
+    background-color: ;
+  }
+  .head .nrlinks ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px 70px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  .head .nrlinks .home {
+    background-color: rgb(7, 177, 120);
+  }
+  .head .nrlinks ul li:hover {
+    background-color: rgb(7, 177, 120);
+  }
+  .head .nrlinks ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  .head nav .menubtn:hover .nrlinks {
+    display: block;
   }
 }
