@@ -97,7 +97,7 @@
   background-color: rgb(11, 79, 167);
   font-weight: 600;
 }
-#menubtn {
+.container .menubtn {
   display: none;
 }
 .nrlinks {
@@ -3219,7 +3219,7 @@ border: 2px solid rgb(13, 230, 13);
 
 .........nav logo........ */
   .head nav .navlogo {
-    width: 20%;
+    width: 23%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3230,7 +3230,7 @@ border: 2px solid rgb(13, 230, 13);
     font-size: 1rem;
     font-weight: 900;
     font-family: sans-serif;
-    padding: 10px;
+    padding: 8px;
     background-color: rgb(3, 121, 81);
     border-radius: 10px;
   }
@@ -3245,7 +3245,7 @@ border: 2px solid rgb(13, 230, 13);
 
 .........nav button........ */
   .head nav .navbutton {
-    width: 80%;
+    width: 77%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -3257,8 +3257,11 @@ border: 2px solid rgb(13, 230, 13);
     border: none;
     color: rgb(77, 77, 77);
     background-color: rgb(248, 248, 248);
-    font-size: 1rem;
+    font-size: .80rem;
     cursor: pointer;
+  }
+  .head nav .navbutton .btn2{
+    margin-right: 40px;
   }
   .head nav .navbutton button i {
     margin-right: 5px;
@@ -3268,27 +3271,38 @@ border: 2px solid rgb(13, 230, 13);
     background-color: rgb(11, 79, 167);
     font-weight: 600;
   }
-  .head nav .menubtn {
+
+
+  /* ..........menu........... */
+  .container{
+    height: 202px;
+    width: 352px;
+    float: right;
+    display: inline;
+  }
+  .menubtn {
     display: block;
     color: white;
     font-size: 1.3rem;
     line-height: 60px;
     padding-right: 5px;
     cursor: pointer;
+    float: right;
+    margin-top: -40px;
   }
-  /* ..........menu........... */
-  .head .nrlinks {
+  .nrlinks {
     display: block;
     float: right;
     background-color: rgb(3, 121, 81);
     width: 350px;
     border-radius: 10px;
+    position: absolute;
     display: none;
   }
-  .head .nrlinks ul {
+  .nrlinks ul {
     background-color: ;
   }
-  .head .nrlinks ul li {
+  .nrlinks ul li {
     list-style-type: none;
     text-align: center;
     margin: 10px 70px;
@@ -3296,20 +3310,23 @@ border: 2px solid rgb(13, 230, 13);
     border-radius: 10px;
     transition: 0.5s;
   }
-  .head .nrlinks .home {
+  .nrlinks .home {
     background-color: rgb(7, 177, 120);
   }
-  .head .nrlinks ul li:hover {
+  .nrlinks ul li:hover {
     background-color: rgb(7, 177, 120);
   }
-  .head .nrlinks ul a {
+  .nrlinks ul a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
     font-family: sans-serif;
     font-weight: 600;
   }
-  .head nav .menubtn:hover .nrlinks {
+  /* .head nav .menubtn:hover .nrlinks {
+    display: block;
+  } */
+  .menubtn:hover .nrlinks a{
     display: block;
   }
 }
