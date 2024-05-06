@@ -13,6 +13,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
+
   <body>
     <head>
       <div class="head">
@@ -35,10 +36,17 @@
             </button>
             <button class="btn2">Registration</button>
           </div>
+          <ul class="micon">
+            <li  onclick="showSidebar()">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </li>
+          </ul>
         </nav>
         <div class="sidebar">
           <ul>
-            <li><i class="fa-solid fa-xmark"></i></li>
+            <li onclick="hideSidebar()">
+              <a href="#"><i class="fa-solid fa-xmark"></i></a>
+            </li>
             <li class="home"><a href="#">Home</a></li>
             <li><a href="#">Apartments</a></li>
             <li><a href="#">About Us</a></li>
@@ -253,5 +261,15 @@
         <p>Copyright@ 2023-2024 | Wagon</p>
       </div>
     </footer>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
   </body>
 </html>

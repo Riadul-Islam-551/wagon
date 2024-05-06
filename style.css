@@ -100,8 +100,45 @@
 .container .menubtn {
   display: none;
 }
-.nrlinks {
+.micon{
   display: none;
+}
+.micon li{
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.micon a{
+  color: white;
+}
+.sidebar{
+  width: 300px;
+  float: right;
+  box-shadow: -3px 3px 5px rgb(167, 165, 165);
+  display: none;
+}
+.sidebar li{
+  list-style: none;
+}
+.sidebar a{
+  width: 100%;
+  text-decoration: none;
+  font-size: .90rem;
+  font-family: sans-serif;
+  color: black;
+  margin: 5px 0px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.sidebar a:hover{
+  background-color: #8b8b8b;
+  color: white;
+  font-weight: 600;
+  border-radius: 7px;
 }
 /* 
 
@@ -1420,6 +1457,9 @@ shop heading........ */
     padding: 10px;
     background-color: rgb(3, 121, 81);
     border-radius: 10px;
+  }
+  .micon{
+    display: block;
   }
   /* 
 
