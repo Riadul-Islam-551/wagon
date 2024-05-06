@@ -122,6 +122,7 @@
 }
 .sidebar li{
   list-style: none;
+  width: 100%;
 }
 .sidebar a{
   width: 100%;
@@ -131,7 +132,7 @@
   color: black;
   margin: 5px 0px;
   padding: 10px;
-  display: inline-block;
+  display: block;
   text-align: center;
 }
 .sidebar a:hover{
@@ -139,6 +140,11 @@
   color: white;
   font-weight: 600;
   border-radius: 7px;
+}
+.sidebar .x_icon{
+  color: blue;
+  font-weight: 900;
+  font-size: 20px;
 }
 /* 
 
@@ -1457,9 +1463,6 @@ shop heading........ */
     padding: 10px;
     background-color: rgb(3, 121, 81);
     border-radius: 10px;
-  }
-  .micon{
-    display: block;
   }
   /* 
 
@@ -3301,7 +3304,7 @@ border: 2px solid rgb(13, 230, 13);
     cursor: pointer;
   }
   .head nav .navbutton .btn2{
-    margin-right: 40px;
+    margin-right: 10px;
   }
   .head nav .navbutton button i {
     margin-right: 5px;
@@ -3368,5 +3371,14 @@ border: 2px solid rgb(13, 230, 13);
   } */
   .menubtn:hover .nrlinks a{
     display: block;
+  }
+}
+@media  screen and (max-width:900px) and (min-width:300px) {
+  
+  .micon{
+    display: block;
+  }
+  .navbutton .login_icon{
+    display: none;
   }
 }
